@@ -34,6 +34,7 @@ namespace Find_Your_Love_Server.Controllers
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
+            Console.WriteLine("test");
         }
     }
 }
